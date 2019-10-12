@@ -1,0 +1,121 @@
+.blogContainer{
+
+    width: 70%;
+    height: auto;
+    min-height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 100px 100px 50px 100px;
+    background-color: rgba(225, 215, 225, 0.95);
+    border-radius: 25px;
+    border: 2px solid rgba(85, 65, 85, 0.8);
+}
+
+.blog-featured-image{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    padding: 0;
+    border-radius: 5px;
+    border: 1px solid rgb(85, 65,85);
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.blog-featured-image img{
+
+    position: relative;
+    top: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.blog-left-images{
+
+    width: 450px;
+    height: auto;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 40px;
+    float: left;
+    border: 1px solid rgb(85, 65, 85);
+    border-radius: 5px;
+}
+
+.blog-right-images{
+
+    width: 450px;
+    height: auto;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 40px;
+    float: right;
+    border: 1px solid rgb(85, 65, 85);
+    border-radius: 5px;
+}
+
+.blog-left-images img{
+
+    width: 100%;
+    height: auto;
+}
+
+.blog-right-images img{
+
+    width: 100%;
+    height: auto;
+}
+
+.blogText{
+
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.blogLogo{
+
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(85, 65, 85);
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.blogLogo img{
+
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 376px)  {
+
+    p{
+        font-size: 75%;
+    }
+    h3{
+        font-size: 90%;
+    }
+
+    .blogContainer{
+        width: 75%;
+        height: auto;
+        margin-left: auto;
+        margin-right: 30px;
+        padding: 10px;
+    }
+
+    .blog-featured-image, .blog-right-images, .blog-left-images {
+
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+}

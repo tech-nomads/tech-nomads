@@ -1,0 +1,147 @@
+.stickyLinks{
+
+    top: 30%;
+    width: 80%;
+    height: 600px;
+    display: inline;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.stickyLinks ul{
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.stickyLinks li{
+
+    list-style-type: none;
+    background-color: rgba(225, 215, 225, 0.95);
+    margin-bottom: 20px;
+    width: 100%;
+    height: 90px;
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 50px 0 0 50px;
+    overflow: hidden;
+}
+
+.stickyLinks img{
+
+    height: 100%;
+    float: left;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    margin: 0;
+    border-radius: 100%;
+}
+
+.stickyLinks h5 {
+    margin-top: 2px;
+    padding: 2px;
+}
+
+.stickyText {
+
+    height: 100%;
+    width:70%;
+    padding-left: 100px;
+    margin-top: 2.5%;
+    margin-bottom: auto;
+    font-size: 90%;
+
+}
+
+.postIt{
+
+    position: relative;
+    top: 1%;
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    padding: 2.5%;
+    float: left;
+    border: 1px solid rgba(0, 0, 0, 0.95);
+    background-color: rgba(225, 215, 225, 0.95);
+    table-layout: auto;
+}
+
+.postIt h3, h4 {
+
+    margin-bottom: 5%;
+}
+
+.postIt img{
+
+    width: 45%;
+    height: auto;
+    float: left;
+    margin: 5%;
+    border: 1px solid rgb(85, 65, 85);
+}
+@media only screen and (max-width: 800px) {
+
+    p{
+        font-size: 75%
+    }
+    h4{
+        font-size: 75%;
+    }
+
+    .postIt{
+
+        width: 250px;
+        height: 250px;
+    }
+
+    .stickyLinks li{
+        height: 60px;
+        padding: 0;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        border-radius: 0;
+    }
+
+    .stickyLinks img{
+
+        border-radius: 0;
+    }
+    .stickyText{
+
+        font-size: 60%;
+        padding-left: 70px;
+        padding-right: 70px;
+        overflow-wrap: break-word;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .postIt{
+
+        width: 250px;
+        height: 250px;
+    }
+
+    .stickyLinks li{
+        height: 60px;
+        padding: 0;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        border-radius: 0;
+    }
+
+    .stickyLinks img{
+
+        border-radius: 0;
+    }
+    .stickyText{
+
+        font-size: 60%;
+        padding-left: 70px;
+        padding-right: 70px;
+        overflow-wrap: break-word;
+    }
+}

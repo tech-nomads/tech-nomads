@@ -1,0 +1,364 @@
+/*Standered tags*/
+body{
+
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+a{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: rgb(85, 65, 85);
+}
+
+h5, h4, h3, h2{
+
+    font-family: 'Raleway', sans-serif;
+    display: inline;
+    color: rgb(85, 65, 85);
+}
+
+p {
+
+    font-family: 'Lato', sans-serif;
+}
+
+hr {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgb(85, 65, 85);
+}
+
+figcaption{
+
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+
+/*Contaners*/
+.canvas{
+
+    min-height: 100%;
+    position: relative;
+}
+
+.logoBox{
+
+    max-width: 15%;
+    height: auto;
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.logoBox img{
+
+    z-index: 2;
+    max-width: 70%;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerInfoContainer{
+
+    width: 70%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid rgb(85, 65, 85);
+}
+
+.largeInfoSubContainer{
+
+    width: 60%;
+    height: 100%;
+    float: left;
+    padding: 20px;
+}
+
+.largeInfoSubContainer img{
+
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smallInfoSubContainer{
+
+    width: 40%;
+    height: 100%;
+    float: left;
+    padding: 20px;
+}
+
+.partners {
+
+    position: inherit;
+    top: 15%;
+    height: 100px;
+    width: 100px;
+    z-index: 2;
+    float: left;
+    margin-left: 20px;
+}
+
+.partners img{
+
+    width: 100px;
+    height: 100px;
+}
+
+.digiScribble{
+
+    top: 60%;
+    margin-top: 60px;
+    margin-right: 20px;
+    float: right;
+    z-index: 2;
+}
+
+#header {
+
+    top: 0%;
+    width: 100%;
+    min-height: 20%;
+    background-color: rgb(85, 65, 85);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+}
+
+#body {
+
+    padding-bottom: 5%;
+    background-image: url("../img/langBackDrop.png");
+    opacity: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#footer {
+
+    overflow: hidden;
+    max-height: 20%;
+    min-width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-top: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+#statement{
+
+    overflow: hidden;
+    background-color: rgb(225,215,225);
+}
+
+#poster{
+
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(85,65,85);
+}
+
+#postItBackdrop{
+
+    background-color: rgba(205, 185, 205, 0.8);
+    border-bottom: 5px solid rgb(85, 65, 85);
+    overflow: scroll;
+}
+
+#stickyBackdrop{
+
+    background-color: rgba(205, 185, 205, 0.8);
+    border-bottom: 5px solid rgb(85, 65, 85);
+    overflow: scroll;
+}
+
+#footerLISC img{
+
+    margin-top: 25%;
+    width: 100%;
+}
+
+#footerSISC img {
+
+    margin-top: 25%;
+    width: 100%;
+}
+
+.mySlides {
+
+    display: none
+}
+
+/* Slideshow container */
+.slideshow-container {
+
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+
+    font-family: 'Lato', sans-serif;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+
+    font-family: 'Lato', sans-serif;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 800px) {
+
+    .largeInfoSubContainer{
+        width: 100%;
+        height: auto;
+    }
+
+    .smallInfoSubContainer{
+        width: 100%;
+        height: auto;
+    }
+
+    .logoBox{
+        max-width: 40%;
+    }
+
+    #footerLISC{
+        width: 60%;
+    }
+
+    #footerSISC{
+
+        width: 40%;
+        padding-right: 0;
+    }
+
+    #footerSISC img {
+
+        margin-top: 20%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    h4{
+        font-size: 75%;
+    }
+
+    .prev, .next,.text {
+        font-size: 11px
+    }
+
+    .prev, .next,.text {
+        font-size: 11px
+    }
+
+    .logoBox{
+        max-width: 40%;
+        top: 25px;
+    }
+
+    .centerInfoContainer{
+        margin-left: auto;
+        margin-right: 5px;
+        width: 83%;
+    }
+
+    .largeInfoSubContainer{
+        width: 100%;
+        height: auto;
+    }
+
+    .smallInfoSubContainer{
+        width: 100%;
+        height: auto;
+    }
+}
