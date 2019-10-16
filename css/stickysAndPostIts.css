@@ -85,6 +85,10 @@
 }
 @media only screen and (max-width: 800px) {
 
+    #postItBackdrop{
+        margin-bottom: 20px;
+    }
+
     p{
         font-size: 75%
     }
@@ -96,6 +100,10 @@
 
         width: 250px;
         height: 250px;
+    }
+
+    .postIt h3{
+        font-size: 75%;
     }
 
     .stickyLinks li{
@@ -120,10 +128,18 @@
 
 @media only screen and (max-width: 375px) {
 
+    #postItBackdrop{
+        margin-bottom: 20px;
+    }
+
     .postIt{
 
         width: 250px;
         height: 250px;
+    }
+
+    .postIt h3{
+        font-size: 75%;
     }
 
     .stickyLinks li{
