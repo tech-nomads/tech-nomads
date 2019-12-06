@@ -98,8 +98,8 @@
 
     .postIt{
 
-        width: 250px;
-        height: 250px;
+        width: 80%;
+        height:auto;
     }
 
     .postIt h3{
