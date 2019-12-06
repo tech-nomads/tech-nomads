@@ -83,6 +83,10 @@ figcaption{
     padding: 20px;
 }
 
+.largeInfoSubContainer::-webkit-scrollbar{
+    display: none;
+}
+
 .largeInfoSubContainer img{
 
     width: 99%;
@@ -96,6 +100,10 @@ figcaption{
     height: 100%;
     float: left;
     padding: 20px;
+}
+
+.smallInfoSubContainer::-webkit-scrollbar{
+    display: none;
 }
 
 .partners {
@@ -362,4 +370,3 @@ figcaption{
     }
 }
 
-.element::-webkit-scrollbar { width: 0 !important }
