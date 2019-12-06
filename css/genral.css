@@ -361,3 +361,5 @@ figcaption{
         height: auto;
     }
 }
+
+.element::-webkit-scrollbar { width: 0 !important }
