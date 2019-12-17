@@ -162,7 +162,7 @@ figcaption{
 
 #statement{
 
-    overflow: hidden;
+    overflow: scroll;
     background-color: rgb(225,215,225);
 }
 
